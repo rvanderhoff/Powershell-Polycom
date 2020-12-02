@@ -40,7 +40,7 @@ add-type @"
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls11
 
 #Set Prefix range here
-$ip_prefix = "192.168."
+$ip_prefix = "192.168.1."
 $IP_Range = @()
 
 #Get IP's for VOIP Phones and place in array. Change starting and ending range as needed. First $i value is starting. 
